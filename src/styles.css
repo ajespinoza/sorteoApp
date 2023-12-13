@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.bg{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, #ffffff 0, #ffffff 12.5%, #fdffff 25%, #e9fff7 37.5%, #cdf2e6 50%, #b1e1d6 62.5%, #9bd5cd 75%, #8cccca 87.5%, #84c9cb 100%);
+  background-size: contain;
+}
+
+
+
+.loading{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+.spinner {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.spinner > div {
+  background-color: rgba(19, 113, 255, 0.8);
+  box-shadow: 2px 2px 15px rgba(15, 255, 55);
+  height: 100%;
+  width: 12px;
+  display: inline-block;
+  margin-left: 2px;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
+.ganadores{
+  background-color: #FFF;
+}
+
+.ganadores ul{
+  display: flex;
+  gap: 3;
+  flex-wrap: wrap;
+}
+
+.ganadores li{
+  padding: 10px 10px;
+  margin: 5px;
+  list-style: none;
+  box-shadow: 1px 2px 6px #333;
+}
+
+.ganadores h4{
+  margin-left: 15px;
+}
+
+.esfera{
+  position: fixed;
+  top: 40px;
+  right: 100px;
+  width: 150px;
+  z-index: 999;
+}
+
+.esfera2{
+  position: fixed;
+  top: 40px;
+  right: 220px;
+  width: 150px;
+  z-index: 999;
+}
+
+.esfera3{
+  position: fixed;
+  top: 30px;
+  left: 160px;
+  width: 150px;
+  z-index: 999;
+}
+
+
+.cursiva{
+  font-family: 'Dancing Script';
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.cursiva2{
+  font-family: 'Courgette';
+  font-size: 2em;
+}

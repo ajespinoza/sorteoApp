@@ -1,0 +1,104 @@
+.lstParticipantes ul{
+  list-style: none;
+}
+.lstParticipantes li{
+  font-size: 12px;
+  padding: 5px 12px;
+  background-color: #EEE;
+  box-shadow: 2px -2px 5px #DDD;
+}
+
+
+.btnSorteo {
+  width: 280px;
+  height: 200px;
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:20px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:'Roboto Slab';
+	font-size:25px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+  margin: auto;
+}
+.btnSorteo:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.btnSorteo:active {
+	position:relative;
+	top:1px;
+}
+
+
+.btnSorteo2 {
+  width: 280px;
+  height: 200px;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:20px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Roboto Slab';
+	font-size:25px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+  margin: auto;
+}
+.btnSorteo2:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.btnSorteo2:active {
+	position:relative;
+	top:1px;
+}
+.card-ganador{
+  background-color: #FFE;
+  box-shadow: 4px 4px 18px black;
+  padding: 10px 12px;
+}
+
+
+.resetButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.resetButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.resetButton:active {
+	position:relative;
+	top:1px;
+}
+
+.lightheader{
+  background-image: url("../assets/luces.gif");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
